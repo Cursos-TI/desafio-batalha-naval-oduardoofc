@@ -2,9 +2,29 @@
 
 // Desafio Batalha Naval - MateCheck
 // Este código inicial serve como base para o desenvolvimento do sistema de Batalha Naval.
-// Siga os comentários para implementar cada parte do desafio.
+// Siga os comentários para implementar cada parte do desafio.        
 
 int main() {
+    int matriz [3][3] = {1,2,3},{4,5,6},{7,8,9};
+    int target = 5;
+    int found = 0;
+    // busca condicional do elemento alvo
+    for (int i = 0; i <; i++)  {
+        for (int j = 0;j <3;  j++)  {
+            if (matriz [i] [j] == target)  {
+                printf("elemento %d encontrado na poição (%d,  %d)\n",  target,  i,  j)
+                    found = 1;
+                break;
+            }
+
+        }
+        if (found)break;
+    }if (!found)  {
+
+        printf ("elemento %d não encontrado na matriz\n",  target);
+    }
+    return0;
+}
     // Nível Novato - Posicionamento dos Navios
     // Sugestão: Declare uma matriz bidimensional para representar o tabuleiro (Ex: int tabuleiro[5][5];).
     // Sugestão: Posicione dois navios no tabuleiro, um verticalmente e outro horizontalmente.
